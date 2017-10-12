@@ -16,6 +16,3 @@ if(isset($_POST))
   }
 }
  ?>
-
-
-//creatediffrent cases

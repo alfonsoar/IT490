@@ -7,7 +7,8 @@ require_once('rabbitMQLib.inc');
 function ifCrit($msg)
 {
   $msg = strtolower($msg);
-  if (preg_match('/error/',$msg) | preg_match('/critical/',$msg))
+  if (preg_match('/error/',$msg) | preg_match('/critical/',$msg)
+      | preg_match('/login/',$msg))
   {
     return True;
   }
@@ -20,7 +21,7 @@ function LogMsg($e,$extFile)
   $file = __FILE__.PHP_EOL;
   $user = explode("/",$file);
   $string = trim(preg_replace('/\s+/', ' ', $extFile));
-  
+
   $logmsg = array();
   $logmsg['date'] = date("Y-m-d");
   $logmsg['day'] = date("l");
@@ -36,15 +37,14 @@ function LogMsg($e,$extFile)
   {
     //send to log server
     $client = new rabbitMQClient("logRabbitMQ.ini","testServer");
-    echo 'send to log server' .PHP_EOL;
     $client->publish($msg);
   }
   //log the message
-  error_log($msg.PHP_EOL,3,"./logs/logfile.log");
+  error_log($msg.PHP_EOL,3,"../logs/logfile.log");
 }
 
 function LogServerMsg($e)
 {
-  error_log($e.PHP_EOL,3,"./logs/logfile.log");
+  error_log($e.PHP_EOL,3,"../logs/logfile.log");
 }
 ?>
