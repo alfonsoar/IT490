@@ -1,13 +1,13 @@
 #!/usr/bin/php
 <?php
-require_once('../path.inc');
-require_once('../get_host_info.inc');
-require_once('../rabbitMQLib.inc');
+require_once('../Ini/path.inc');
+require_once('../Ini/get_host_info.inc');
+require_once('../Ini/rabbitMQLib.inc');
 require_once('../logscript.php');
 
 function sendtoServer($type,$username,$password)
 {
-  $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
+  $client = new rabbitMQClient("../Ini/testRabbitMQ.ini","testServer");
   $request = array();
   $request['type'] = $type;
   $request['username'] = $username;

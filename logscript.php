@@ -1,7 +1,7 @@
 <?php
-require_once('path.inc');
-require_once('get_host_info.inc');
-require_once('rabbitMQLib.inc');
+require_once('Ini/path.inc');
+require_once('Ini/get_host_info.inc');
+require_once('Ini/rabbitMQLib.inc');
 
 //create the function to check if message is critical
 function ifCrit($msg)

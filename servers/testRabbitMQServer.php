@@ -1,9 +1,9 @@
 #!/usr/bin/php
 <?php
-require_once('../path.inc');
-require_once('../get_host_info.inc');
-require_once('../rabbitMQLib.inc');
-require_once('../login.php.inc');
+require_once('../Ini/path.inc');
+require_once('../Ini/get_host_info.inc');
+require_once('../Ini/rabbitMQLib.inc');
+require_once('../Ini/login.php.inc');
 require_once('../logscript.php');
 
 function doLogin($username,$password)
@@ -72,7 +72,7 @@ function requestProcessor($request)
   return array("returnCode" => '0', 'message'=>"Server received request and processed");
 }
 
-$server = new rabbitMQServer("testRabbitMQ.ini","testServer");
+$server = new rabbitMQServer("../Ini/testRabbitMQ.ini","testServer");
 $server->process_requests('requestProcessor');
 exit();
 ?>
