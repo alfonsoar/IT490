@@ -15,13 +15,19 @@ function ifCrit($msg)
 }
 
 // Create the error logging function
-function LogMsg($e)
+function LogMsg($e,$extFile)
 {
+  $file = __FILE__.PHP_EOL;
+  $user = explode("/",$file);
+  $string = trim(preg_replace('/\s+/', ' ', $extFile));
+  
   $logmsg = array();
   $logmsg['date'] = date("Y-m-d");
   $logmsg['day'] = date("l");
   $logmsg['time'] = date("h:i:sa");
+  $logmsg['user'] = $user[2];
   $logmsg['text'] = $e;
+  $logmsg['file'] = $string;
 
   //log the message
   $msg = implode(" - ",$logmsg);
