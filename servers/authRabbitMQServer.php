@@ -18,11 +18,11 @@ function doLogin($username,$password)
     $login_status = $login->validateLogin($username,$password);
     if($login_status)
     {
-      LogMsg("Login Successful",$PathArray[8]);
+      LogMsg("Login Successful: ".$username,$PathArray[8]);
     }
     else
     {
-      LogMsg("Login Failed",$PathArray[8]);
+      LogMsg("Login Failed: ".$username,$PathArray[8]);
     }
     echo $login_status.PHP_EOL;
     return $login_status;
@@ -38,11 +38,11 @@ function doRegister($username,$password)
   $register_status = $register->registerUser($username,$password);
   if($register_status)
   {
-    LogMsg("Registration Successful",$PathArray[8]);
+    LogMsg("Registration Successful: ".$username,$PathArray[8]);
   }
   else
   {
-    LogMsg("Registration Failed",$PathArray[8]);
+    LogMsg("Registration Failed: ".$username,$PathArray[8]);
   }
   echo $register_status.PHP_EOL;
   return $register_status;
@@ -57,8 +57,8 @@ function requestProcessor($request)
   var_dump($request);
   if(!isset($request['type']))
   {
-    LogMsg("ERROR: unsupported message type",$PathArray[8]);
-    return "ERROR: unsupported message type";
+    LogMsg("ERROR: Type is not set",$PathArray[8]);
+    return "ERROR: Type is not set";
   }
   switch ($request['type'])
   {
@@ -69,10 +69,11 @@ function requestProcessor($request)
     case "register":
       return doRegister($request['username'],$request['password']);
   }
+  LogMsg("ERROR: Type is not supported",$PathArray[8]);
   return array("returnCode" => '0', 'message'=>"Server received request and processed");
 }
 
-$server = new rabbitMQServer("../Ini/testRabbitMQ.ini","testServer");
+$server = new rabbitMQServer("../Ini/authRabbitMQ.ini","testServer");
 $server->process_requests('requestProcessor');
 exit();
 ?>

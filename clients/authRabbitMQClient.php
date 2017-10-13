@@ -7,7 +7,7 @@ require_once('../logscript.php');
 
 function sendtoServer($type,$username,$password)
 {
-  $client = new rabbitMQClient("../Ini/testRabbitMQ.ini","testServer");
+  $client = new rabbitMQClient("../Ini/authRabbitMQ.ini","testServer");
   $request = array();
   $request['type'] = $type;
   $request['username'] = $username;
@@ -23,7 +23,7 @@ function sendtoServer($type,$username,$password)
   return $response;
 }
 
-sendtoServer("login","root","12345678");
+sendtoServer("register","bbb","Mr.PoopieButHole","1989-01-02","i like yugioh");
 
 echo $argv[0]." END".PHP_EOL;
 ?>

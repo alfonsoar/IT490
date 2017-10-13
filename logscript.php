@@ -8,7 +8,7 @@ function ifCrit($msg)
 {
   $msg = strtolower($msg);
   if (preg_match('/error/',$msg) | preg_match('/critical/',$msg)
-      | preg_match('/login/',$msg))
+      | preg_match('/failed/',$msg) | preg_match('/successful/',$msg))
   {
     return True;
   }
