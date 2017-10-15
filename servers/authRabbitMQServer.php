@@ -30,12 +30,16 @@ function doLogin($username,$password)
 
 function doRegister($username,$password)
 {
+  $options = [
+    'cost' => 11,
+  ];
   $file = __FILE__.PHP_EOL;
   $PathArray = explode("/",$file);
   $register = new loginDB();
   LogMsg("tried to register",$PathArray[8]);
   echo "tried to register".PHP_EOL;
-  $register_status = $register->registerUser($username,$password);
+  $hash = password_hash($password, PASSWORD_BCRYPT, $options);
+  $register_status = $register->registerUser($username,$hash);
   if($register_status)
   {
     LogMsg("Registration Successful: ".$username,$PathArray[8]);

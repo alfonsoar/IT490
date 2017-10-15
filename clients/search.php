@@ -3,7 +3,6 @@
 require_once('../Ini/path.inc');
 require_once('../Ini/get_host_info.inc');
 require_once('../Ini/rabbitMQLib.inc');
-require_once('../logscript.php');
 
 function searchCards($type,$val)
 {
@@ -17,6 +16,13 @@ function searchCards($type,$val)
   print_r($response);
   echo "\n\n";
   return $response;
+}
+
+function getCard()
+{
+  $client = new rabbitMQClient("../Ini/queryRabbitMQ.ini","searchServer");
+  
+
 }
 
 searchCards("searchAll","magician");

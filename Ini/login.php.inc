@@ -1,4 +1,4 @@
-<?php
+/home/aga23/Documents/IT-490/Dev/IT490/servers<?php
 
 class loginDB
 {
@@ -27,7 +27,7 @@ public function validateLogin($username,$password)
 	while ($row = $response->fetch_assoc())
 	{
 		echo "checking password for $username".PHP_EOL;
-		if ($row["password"] == $pw)
+		if (password_verify($pw, $row["pass"]))
 		{
 			echo "passwords match for $username".PHP_EOL;
 			return 1;// password match
@@ -51,7 +51,7 @@ public function registerUser($username,$password)
 	}
 
 	//add user to database
-	$statement = "insert into users(username,password) values('$un','$pw');";
+	$statement = "insert into users(screenname,pass) values('$un','$pw');";
 	$response = $this->logindb->query($statement);
 
 	//Check if insert was successful

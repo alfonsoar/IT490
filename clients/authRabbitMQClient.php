@@ -23,7 +23,7 @@ function sendtoServer($type,$username,$password)
   return $response;
 }
 
-sendtoServer("register","bbb","Mr.PoopieButHole","1989-01-02","i like yugioh");
+sendtoServer("login","rey","hasffhme");
 
 echo $argv[0]." END".PHP_EOL;
 ?>
