@@ -12,7 +12,6 @@ function sendtoServer($type,$username,$password)
   $request['type'] = $type;
   $request['username'] = $username;
   $request['password'] = $password;
-  //$request['message'] = $msg;
   $response = $client->send_request($request);
   //$response = $client->publish($request);
 
@@ -23,7 +22,7 @@ function sendtoServer($type,$username,$password)
   return $response;
 }
 
-sendtoServer("login","rey","hasffhme");
+sendtoServer("login","dog","HashMeNow");
 
 echo $argv[0]." END".PHP_EOL;
 ?>
