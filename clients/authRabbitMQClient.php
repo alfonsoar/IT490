@@ -22,7 +22,7 @@ function sendtoServer($type,$username,$password)
   return $response;
 }
 
-sendtoServer("login","dog","HashMeNow");
+sendtoServer("register","jill","pop");
 
 echo $argv[0]." END".PHP_EOL;
 ?>
