@@ -43,7 +43,7 @@ function sendMessage($type,$userName,$message)
 
 
 #sendMessage("sendMessage","jill","I want to trade now");
-getMessage("getMessage","jill");
+getMessage("getMessage","Ventus_Deus");
 #getAllUsers("getAllUsers");
 
 
