@@ -5,13 +5,16 @@ require_once('../Ini/get_host_info.inc');
 require_once('../Ini/rabbitMQLib.inc');
 require_once('../logscript.php');
 
-function sendtoServer($type,$username,$password)
+function sendtoServer($type,$username,$password,$dob,$aboutMe,$rName)
 {
   $client = new rabbitMQClient("../Ini/authRabbitMQ.ini","testServer");
   $request = array();
   $request['type'] = $type;
   $request['username'] = $username;
   $request['password'] = $password;
+  $request['dob'] = $dob;
+  $request['aboutMe'] = $aboutMe;
+  $request['rName'] = $rName;
   $response = $client->send_request($request);
   //$response = $client->publish($request);
 
@@ -22,7 +25,7 @@ function sendtoServer($type,$username,$password)
   return $response;
 }
 
-sendtoServer("register","jill","pop");
+sendtoServer("register","sem","pop","1995","I am a yugioh player","alfonso");
 
 echo $argv[0]." END".PHP_EOL;
 ?>

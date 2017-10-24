@@ -42,9 +42,9 @@ function sendMessage($type,$userName,$message)
 }
 
 
-#sendMessage("sendMessage","jill","I want to trade now");
-getMessage("getMessage","Ventus_Deus");
-#getAllUsers("getAllUsers");
+#sendMessage("sendMessage","semo","I want to trade now");
+#getMessage("getMessage","semo");
+getAllUsers("getAllUsers");
 
 
 

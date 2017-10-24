@@ -21,10 +21,10 @@ function searchCards($type,$val)
 function getCard()
 {
   $client = new rabbitMQClient("../Ini/queryRabbitMQ.ini","searchServer");
-  
+
 
 }
 
-searchCards("searchAll","magician");
+searchCards("searchAll","dragon");
 
 ?>
