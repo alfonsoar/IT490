@@ -44,7 +44,11 @@ function sendMessage($type,$userName,$message)
 
 #sendMessage("sendMessage","semo","I want to trade now");
 #getMessage("getMessage","semo");
+<<<<<<< HEAD
 #getAllUsers("getAllUsers");
+=======
+getAllUsers("getAllUsers");
+>>>>>>> d80acc8265bbd3a62c02168f3aa3baee909179c9
 
 
 
