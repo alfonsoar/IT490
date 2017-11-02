@@ -1,4 +1,4 @@
-/home/aga23/Documents/IT-490/Dev/IT490/servers<?php
+<?php
 
 class loginDB
 {
