@@ -5,7 +5,7 @@ class Deck
   private $deck;
   private $uid;
   private $deck_num;
-
+  
   public function __construct($uid,$deck_num)
   {
     $this->deck = [];
