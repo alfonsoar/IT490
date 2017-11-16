@@ -9,8 +9,6 @@ $destIP = '';
 $user = '';
 $dServDir = '';
 $layer = '';
-$caseD = strtolower($argv[1]);
-$vid = $argv[2];
 
 $string = shell_exec("cat conf.ini | grep -i user | awk '{ print $3 }'");
 $user = trim(preg_replace('/\s+/', ' ', $string));
@@ -26,6 +24,9 @@ if(empty($argv[1]) || empty($argv[2])){
   echo "Usage: ".$argv[0]." <Function> <Version ID>".PHP_EOL;
   exit(0);
 }
+
+$caseD = strtolower($argv[1]);
+$vid = $argv[2];
 
 //This function will make a bundle and send it to your approprite folder on
 //the deploy server
