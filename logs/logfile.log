@@ -1,39 +1,138 @@
-THIS IS THE FIRST VERISO N WOF COD DJK
-2017-11-07 - Tuesday - 04:19:12pm - 1 - deploy copy successful:  - server
-THIS IS VERSION 22222222
-2017-11-07 - Tuesday - 04:20:49pm - 1 - deploy copy successful:  - servers
-2017-11-09 - Thursday - 06:52:32pm - 1 - deploy copy successful:  - servers
-2017-11-09 - Thursday - 06:53:50pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 06:53:59pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 06:54:34pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 06:56:16pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 06:56:39pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 06:57:07pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 07:22:36pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 07:22:45pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 07:24:12pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 07:27:32pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 07:36:54pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 08:23:29pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 08:27:16pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 08:33:07pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 08:36:34pm - 1 - deploy copy successful:  - server
-
-COMBOOOOOOOOOOO breaker
-2017-11-09 - Thursday - 09:15:18pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 09:17:06pm - 1 - deploy copy Failed:  - servers
-2017-11-09 - Thursday - 09:17:56pm - 1 - deploy copy successful:  - servers
-2017-11-09 - Thursday - 09:18:10pm - 1 - deploy copy Failed:  - servers
-2017-11-10 - Friday - 01:46:03pm - 1 - deploy copy Failed:  - servers
-2017-11-10 - Friday - 02:38:45pm - 1 - deploy copy Failed:  - servers
-2017-11-11 - Saturday - 07:37:53pm - 1 - deploy copy successful:  - servers
-2017-11-11 - Saturday - 07:38:40pm - 1 - deploy copy successful:  - servers
-2017-11-11 - Saturday - 07:40:10pm - 1 - deploy copy Failed:  - servers
-2017-11-11 - Saturday - 08:02:23pm - 1 - deploy copy successful:  - servers
-2017-11-11 - Saturday - 08:11:38pm - 1 - deploy copy Failed:  - servers
-2017-11-14 - Tuesday - 10:29:15am - christian - Login Successful: asdf - authServer.php
-2017-11-14 - Tuesday - 10:29:16am - christian - Login Successful: asdf - authServer.php
-2017-11-14 - Tuesday - 10:29:37am - afv4 - Front-End Login Successful! 1 - login.php
-2017-11-14 - Tuesday - 10:42:27am - 1 - push copy Failed:  - servers
-2017-11-14 - Tuesday - 10:48:32am - 1 - push copy Failed:  - servers
-2017-11-14 - Tuesday - 10:51:17am - 1 - push copy successful:  - servers
+2017-11-19 - Sunday - 02:32:55pm - aga23 - new package uploaded successful - deployServer.php
+2017-11-19 - Sunday - 02:35:50pm - n/a - new package uploaded successful - deployServer.php
+2017-11-19 - Sunday - 02:38:58pm - aga23 - new package uploaded successful - deployServer.php
+2017-11-19 - Sunday - 02:48:20pm - aga23 - The version check was successful - deployServer.php
+2017-11-19 - Sunday - 02:48:23pm -  - deploy copy successful:  - 
+2017-11-19 - Sunday - 02:49:36pm - aga23 - The version check was successful - deployServer.php
+2017-11-19 - Sunday - 02:49:38pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 09:43:09pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 09:43:09pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 09:48:11pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 09:48:13pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 09:49:49pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 09:49:49pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 09:50:11pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 09:50:12pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 09:50:46pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 09:50:46pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 09:50:57pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 09:50:58pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 10:00:02pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:00:02pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:01:00pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:01:01pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:04:04pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:05:56pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:06:01pm - christian - deploy was failed - deployServer.php
+2017-11-20 - Monday - 10:08:28pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:09:43pm - christian - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 10:09:59pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:10:04pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:10:14pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:10:15pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:11:03pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:11:52pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:11:56pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:11:58pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:11:58pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:15:57pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:15:57pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:21:04pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:21:05pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:21:45pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:21:46pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:21:49pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:21:49pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:22:18pm - aga23 - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:22:21pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:22:57pm - aga23 - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 10:23:00pm - aga23 - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:23:06pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:27:58pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:27:58pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:35:41pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 10:35:42pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 10:37:05pm - aga23 - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:37:10pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:37:14pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:38:40pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 10:38:41pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 10:39:09pm - aga23 - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:39:14pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:41:19pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:41:20pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:41:36pm - christian - new package uploaded failed - deployServer.php
+2017-11-20 - Monday - 10:41:53pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:42:13pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:42:55pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:43:00pm - christian - deploy was failed - deployServer.php
+2017-11-20 - Monday - 10:43:25pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:43:27pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:46:07pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:46:11pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:48:43pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 10:48:44pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 10:49:49pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 10:49:50pm - christian - Login Failed: afv4 - authServer.php
+2017-11-20 - Monday - 10:50:05pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:50:13pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:52:55pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:52:56pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:53:44pm - afv4 - Front-End Login Successful! 1 - login.php
+2017-11-20 - Monday - 10:59:21pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 10:59:22pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:00:35pm - christian - Registration Successful: asm63 - authServer.php
+2017-11-20 - Monday - 11:00:44pm - afv4 - Front-End Login Successful! 1 - login.php
+2017-11-20 - Monday - 11:00:44pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:00:45pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:00:51pm - christian - Login Successful: asm63 - authServer.php
+2017-11-20 - Monday - 11:00:52pm - christian - Login Successful: asm63 - authServer.php
+2017-11-20 - Monday - 11:01:01pm - afv4 - Front-End Login Successful! 1 - login.php
+2017-11-20 - Monday - 11:01:05pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:01:06pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:02:11pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:02:12pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:02:57pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:02:59pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:03:29pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:03:30pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:04:16pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:04:16pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:05:32pm - christian - Registration Failed: asdf - authServer.php
+2017-11-20 - Monday - 11:06:41pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:06:42pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:08:40pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:08:41pm - christian - Login Successful: afv4 - authServer.php
+2017-11-20 - Monday - 11:08:42pm - afv4 - Front-End Login Successful! 1 - login.php
+2017-11-20 - Monday - 11:41:26pm - afv4 - new package uploaded failed - deployServer.php
+2017-11-20 - Monday - 11:46:46pm - afv4 - new package uploaded failed - deployServer.php
+2017-11-20 - Monday - 11:48:33pm - afv4 - new package uploaded failed - deployServer.php
+2017-11-20 - Monday - 11:48:42pm - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 11:49:51pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:49:56pm - amuthiyan - deploy was successful - deployServer.php
+2017-11-20 - Monday - 11:50:01pm - amuthiyan - deploy was failed - deployServer.php
+2017-11-20 - Monday - 11:50:24pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:53:24pm - amuthiyan - deploy was failed - deployServer.php
+2017-11-20 - Monday - 11:56:06pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:58:08pm - afv4 - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 11:58:18pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:58:20pm - amuthiyan - deploy was successful - deployServer.php
+2017-11-20 - Monday - 11:59:13pm - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 11:59:17pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:59:20pm - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:01:45am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:01:55am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:02:04am - afv4 - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:02:19am - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 12:02:23am - amuthiyan - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:02:28am - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:03:32am - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 12:03:36am - amuthiyan - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:03:42am - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:04:25am - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:25:32am - afv4 - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 12:26:22am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:26:53am - afv4 - deploy was failed - deployServer.php
+2017-11-21 - Tuesday - 12:27:38am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:35:05am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:35:14am - afv4 - deploy was successful - deployServer.php
