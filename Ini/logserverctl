@@ -1,0 +1,4 @@
+#!/bin/bash
+
+Pid= pgrep logServer.php
+kill $pid

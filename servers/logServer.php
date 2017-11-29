@@ -3,7 +3,6 @@
 require_once('../Ini/path.inc');
 require_once('../Ini/get_host_info.inc');
 require_once('../Ini/rabbitMQLib.inc');
-require_once('../Ini/login.php.inc');
 require_once('../logscript.php');
 
 function requestProcessor($request)

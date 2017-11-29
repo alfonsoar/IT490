@@ -1,6 +1,120 @@
-THIS IS THE FIRST ONE THE ONE I WILL ROLL BACK TOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-2017-11-07 - Tuesday - 02:37:54pm - 1 - deploy copy successful:  - servers
-2017-11-07 - Tuesday - 02:40:29pm - 1 - deploy copy Failed:  - servers
-THIS IS THE BROKEN CODE OHHH SNAPPPPPP
-2017-11-07 - Tuesday - 02:41:38pm - 1 - deploy copy successful:  - servers
-2017-11-07 - Tuesday - 02:41:55pm - 1 - deploy copy Failed:  - servers
+2017-11-19 - Sunday - 02:32:55pm - aga23 - new package uploaded successful - deployServer.php
+2017-11-19 - Sunday - 02:35:50pm - n/a - new package uploaded successful - deployServer.php
+2017-11-19 - Sunday - 02:38:58pm - aga23 - new package uploaded successful - deployServer.php
+2017-11-19 - Sunday - 02:48:20pm - aga23 - The version check was successful - deployServer.php
+2017-11-19 - Sunday - 02:48:23pm -  - deploy copy successful:  - 
+2017-11-19 - Sunday - 02:49:36pm - aga23 - The version check was successful - deployServer.php
+2017-11-19 - Sunday - 02:49:38pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:04:04pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:05:56pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:06:01pm - christian - deploy was failed - deployServer.php
+2017-11-20 - Monday - 10:08:28pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:09:43pm - christian - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 10:09:59pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:10:04pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:11:03pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:11:52pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:11:56pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:22:18pm - aga23 - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:22:21pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:22:57pm - aga23 - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 10:23:00pm - aga23 - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:23:06pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:37:05pm - aga23 - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:37:10pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:37:14pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:39:09pm - aga23 - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:39:14pm - aga23 - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:41:36pm - christian - new package uploaded failed - deployServer.php
+2017-11-20 - Monday - 10:41:53pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:42:13pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:42:55pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:43:00pm - christian - deploy was failed - deployServer.php
+2017-11-20 - Monday - 10:46:07pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:46:11pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 10:50:05pm - christian - The version check was successful - deployServer.php
+2017-11-20 - Monday - 10:50:13pm - christian - deploy was successful - deployServer.php
+2017-11-20 - Monday - 11:41:26pm - afv4 - new package uploaded failed - deployServer.php
+2017-11-20 - Monday - 11:46:46pm - afv4 - new package uploaded failed - deployServer.php
+2017-11-20 - Monday - 11:48:33pm - afv4 - new package uploaded failed - deployServer.php
+2017-11-20 - Monday - 11:48:42pm - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 11:49:51pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:49:56pm - amuthiyan - deploy was successful - deployServer.php
+2017-11-20 - Monday - 11:50:01pm - amuthiyan - deploy was failed - deployServer.php
+2017-11-20 - Monday - 11:50:24pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:53:24pm - amuthiyan - deploy was failed - deployServer.php
+2017-11-20 - Monday - 11:56:06pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:58:08pm - afv4 - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 11:58:18pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:58:20pm - amuthiyan - deploy was successful - deployServer.php
+2017-11-20 - Monday - 11:59:13pm - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-20 - Monday - 11:59:17pm - amuthiyan - The version check was successful - deployServer.php
+2017-11-20 - Monday - 11:59:20pm - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:01:45am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:01:55am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:02:04am - afv4 - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:02:19am - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 12:02:23am - amuthiyan - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:02:28am - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:03:32am - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 12:03:36am - amuthiyan - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:03:42am - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:04:25am - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 12:25:32am - afv4 - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 12:26:22am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:26:53am - afv4 - deploy was failed - deployServer.php
+2017-11-21 - Tuesday - 12:27:38am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:35:05am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 12:35:14am - afv4 - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 10:19:04am - aga23 - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 10:22:27am - christian - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 10:23:34am - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 10:24:28am - christian - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 10:26:16am - christian - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 10:26:21am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 10:26:46am - christian - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 10:26:52am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 10:27:55am - amuthiyan - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 10:28:00am - amuthiyan - deploy was failed - deployServer.php
+2017-11-21 - Tuesday - 10:29:19am - afv4 - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 10:39:58am - christian - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 10:40:18am - christian - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 10:40:24am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 10:42:16am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 10:44:50am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 10:46:49am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 10:51:09am - christian - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 10:51:33am - christian - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 10:51:39am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 10:52:32am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 10:59:24am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 11:02:26am - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 11:02:37am - afv4 - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 11:02:46am - christian - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 11:02:53am - amuthiyan - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 11:02:58am - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 11:03:07am - christian - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 11:03:13am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 11:03:13am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 11:03:26am - afv4 - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 11:05:58am - amuthiyan - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 11:06:02am - christian - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 11:06:09am - amuthiyan - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 11:06:10am - afv4 - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 11:06:21am - christian - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 11:06:27am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 11:06:27am - amuthiyan - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 11:06:31am - amuthiyan - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 11:06:41am - afv4 - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 11:06:52am - afv4 - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 11:11:46am - christian - new package uploaded successful - deployServer.php
+2017-11-21 - Tuesday - 11:11:53am - christian - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 11:11:59am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 11:18:16am - christian - The version check was successful - deployServer.php
+2017-11-21 - Tuesday - 11:18:22am - christian - deploy was successful - deployServer.php
+2017-11-21 - Tuesday - 11:18:28am - christian - deploy was successful - deployServer.php
+2017-11-23 - Thursday - 12:44:18am - aga23 - new package uploaded successful - deployServer.php
+2017-11-23 - Thursday - 01:08:11am - aga23 - new package uploaded successful - deployServer.php
+2017-11-23 - Thursday - 01:08:11am - aga23 - new package uploaded successful - deployServer.php
+2017-11-23 - Thursday - 01:08:36am - aga23 - new package uploaded successful - deployServer.php
+2017-11-23 - Thursday - 01:08:36am - aga23 - new package uploaded successful - deployServer.php

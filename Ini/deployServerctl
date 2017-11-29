@@ -1,0 +1,4 @@
+#!/bin/bash
+
+Pid= pgrep deployServer.php
+kill $pid

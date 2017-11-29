@@ -15,18 +15,26 @@ function ifCrit($msg)
   return false;
 }
 
+function Logger($status,$message,$path,$user){
+  if($status == 1){
+    LogMsg($message." successful",$path,$user);
+  }
+  else{
+    LogMsg($message." failed",$path,$user);
+  }
+}
+
 // Create the error logging function
-function LogMsg($e,$extFile)
+function LogMsg($e,$extFile,$user)
 {
-  $file = __FILE__.PHP_EOL;
-  $user = explode("/",$file);
+  $file = basename($_SERVER['PHP_SELF']);
   $string = trim(preg_replace('/\s+/', ' ', $extFile));
 
   $logmsg = array();
   $logmsg['date'] = date("Y-m-d");
   $logmsg['day'] = date("l");
   $logmsg['time'] = date("h:i:sa");
-  $logmsg['user'] = $user[2];
+  $logmsg['user'] = $user;
   $logmsg['text'] = $e;
   $logmsg['file'] = $string;
 
