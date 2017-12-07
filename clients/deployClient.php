@@ -122,19 +122,19 @@ function sendtoServer($type,$func,$vid,$dip,$dir,$machine){
 }
 
 //this will only send data to deploy server will not deploy it
-function doPush($vid,$caseD,$user,$dServDir,$layer){
+function doPush($vid,$caseD,$user,$dServDir,$layer,$machine){
   //send the data to deploy server
   deployNew($vid,$user,$dServDir);
 
   //call the function
-  sendtoServer($layer,$caseD,$vid,"N/A","N/A","n/a");
+  sendtoServer($layer,$caseD,$vid,"N/A","N/A",$machine);
 }
 
 switch ($caseD)
 {
   case "new":
     $vid = checkDBVer($layer,$machine);
-    doPush($vid,$caseD,$user,$dServDir,$layer);
+    doPush($vid,$caseD,$user,$dServDir,$layer,$machine);
     break;
   case "deploy":
     $vid = "";
