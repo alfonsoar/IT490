@@ -17,13 +17,13 @@ function doLayer($func,$vid,$dip,$dir,$machine,$user,$layer)
       case "new":
         echo "Tried to recive new Package".PHP_EOL;
         $deploy_status = validate($vid,$dip,$dir,$layer,$user,"0");
-        logger($deploy_status,"new package uploaded",$file,$user);
+        logger($deploy_status,"new package uploaded",$file,$user,$machine);
         echo $deploy_status.PHP_EOL;
         return $deploy_status;
       case 'chkVer':
         echo "Tried to check if the version exis".PHP_EOL;
         $deploy_status = $deploy->versionExists($machine,$vid);
-        logger($deploy_status,"The version check was",$file,$user);
+        logger($deploy_status,"The version check was",$file,$user,$machine);
         echo $deploy_status.PHP_EOL;
         return $deploy_status;
       case 'chkRoll':
@@ -40,7 +40,7 @@ function doLayer($func,$vid,$dip,$dir,$machine,$user,$layer)
         echo "I WILL deploy only".PHP_EOL;
         deployServ($vid,$dip,$dir,$layer,$user);
         $deploy_status = validate($vid,$dip,$dir,$layer,$user,"1");
-        logger($deploy_status,"deploy was",$file,$user);
+        logger($deploy_status,"deploy was",$file,$user,$machine);
         echo $deploy_status.PHP_EOL;
         return $deploy_status;
     }
@@ -66,7 +66,7 @@ function requestProcessor($request)
     case "back":
       return doLayer($request['func'],$request['vid'],$request['dip'],$request['dir'],$request['machine'],"christian","back");
   }
-  logger('0',"ERROR: Type is not supported",$file,"n/a");
+  logger('0',"ERROR: Type is not supported",$file,"n/a",$machine);
   return array("returnCode" => '0', 'message'=>"ERROR: Type is not supported");
 }
 
