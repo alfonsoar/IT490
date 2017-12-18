@@ -1,4 +1,16 @@
 <?php
+/**
+ * Thiese are the functions for the deploy server
+ * Here you can find various functions the deploy server calls when it
+ * recivies a new request
+ *
+ * PHP version 7.0.22
+ *
+ * @license MIT http://opensource.org/license/might
+ * @author Christian Rubio <cdr24@njit.edu>
+ * @author Alfonso Austin <aga23@njit.edu>
+ * @since 1.0
+ */
 require_once('path.inc');
 require_once('get_host_info.inc');
 require_once('rabbitMQLib.inc');
@@ -30,7 +42,7 @@ function deployServ($vid,$dip,$dir,$pat,$user){
 function validate($vid,$dip,$dir,$pat,$user,$option)
 {
     if($option == 1){
-      $output = shell_exec("ssh $user@$dip 'cd $dir ; ls -l $dir | grep logscript.php'");
+      $output = shell_exec("ssh $user@$dip 'cd /home/christian/IT490/misc ; ls -l $dir | grep logscript.php'");
     }else {
       $output = shell_exec("ls -l /local/0/$pat | grep $vid");
     }

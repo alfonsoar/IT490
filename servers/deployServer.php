@@ -1,11 +1,37 @@
 #!/usr/bin/php
 <?php
+/**
+ * This is the deploy Server, this listiner sits and waits for deployment
+ * requests, this server can be quired via the deployClient
+ *
+ * PHP version 7.0.22
+ *
+ * @license MIT http://opensource.org/license/might
+ * @author Alfonso Austin <aga23@njit.edu>
+ * @since 1.0
+ */
+
 require_once('../Ini/path.inc');
 require_once('../Ini/get_host_info.inc');
 require_once('../Ini/rabbitMQLib.inc');
 require_once('../Ini/deploy.php.inc');
 require_once('../logscript.php');
 
+
+/**
+ * This function esentiall is the switch statments for all the diffrent
+ * request the client can make, depeing on the case a diffrent functions
+ * is called and appropiately logged
+ *
+ * @param string $func the type of request the client is making
+ * @param string $vid the version id of a specific Package
+ * @param string $dip the destination machine being trader_cdlgravestonedoji
+ * @param string $dir the destination directory on the targed machine
+ * @param string $machine the name of the machine requesting making the requesting
+ * @param string $user the user making the request
+ * @param string $msg the "layer" or the type of machine where the request come from
+ * @return mixed[] This function return various diffent outputs depending on the funtion called
+ */
 function doLayer($func,$vid,$dip,$dir,$machine,$user,$layer)
 {
     $file = basename($_SERVER['PHP_SELF']);
@@ -46,6 +72,14 @@ function doLayer($func,$vid,$dip,$dir,$machine,$user,$layer)
     }
 }
 
+/**
+ * This is the main request proccessor for the deployserver
+ * this function is always listing for request and routes the request's accordingly
+ * depending from what layer it is originating
+ *
+ * @param array $request an array contaning all the diffrent variable sent by the client
+ * @return mixed[] This function return various diffent outputs depending on the funtion called
+ */
 function requestProcessor($request)
 {
   $file = basename($_SERVER['PHP_SELF']);
