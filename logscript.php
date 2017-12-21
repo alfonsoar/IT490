@@ -1,8 +1,8 @@
 <?php
 /**
-* This is the deploy server client
-* This app has 3 functions New | Deploy | Rollback
-* This file containsmany functions used in the proccess of deploying to a server
+* This is the logscript failed
+* the file has numerous functions in order to log messges of diffrent
+* types of severities to the log server and locally
 *
 * PHP version 7.0.22
 *
